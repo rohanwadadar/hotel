@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('istockphoto-539107688-612x612.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7; /* Adjust the opacity to make the background less visible */
+        }
+        .room-container {
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        .room-card {
+            background-color: #9eb5ef;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .room-card:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+        .room-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #000000;
+            transition: color 0.3s ease;
+        }
+        .room-card:hover .room-title {
+            color: #ffffff; /* Change to your desired hover color */
+        }
+        .room-description {
+            font-size: 1.1em;
+            color: #000000;
+            margin-top: 10px;
+        }
+        .room-image {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+        .room-card:hover .room-image {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="room-container">
+        <h1 class="text-center mb-4">Our Rooms</h1>
+    
+        <div class="row">
+            <div class="col-md-6">
+                <div class="room-card">
+                    <a href="booking1.php">
+                        <img src="fbcc8527.avif"  alt="Standard Room" class="room-image">
+                    </a>
+                    <h2 class="room-title">Standard Room</h2>
+                    <p class="room-description">Our Standard Room offers a cozy and comfortable environment, ideal for both leisure and business travelers. Enjoy a relaxing stay with all the essentials provided.</p>
+                    <ul class="room-amenities">
+                        <li>Free Wifi</li>
+                        <li>Flat-screen TV</li>
+                        <li>En-suite bathroom</li>
+                        <li>24/7 Room Service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="room-card">
+                    <a href="booking1.php">
+                        <img src="vvroom1.jpg" alt="Deluxe Room" class="room-image">
+                    </a>
+                    <h2 class="room-title">Deluxe Room</h2>
+                    <p class="room-description">Experience luxury and comfort in our Deluxe Room. Equipped with modern amenities and breathtaking views, it's the perfect choice for a relaxing stay.</p>
+                    <ul class="room-amenities">
+                        <li>Free Wifi</li>
+                        <li>Flat-screen TV</li>
+                        <li>En-suite bathroom</li>
+                        <li>24/7 Room Service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="room-card">
+                    <a href="booking1.php">
+                        <img src="333825214.jpg" alt="Suite" class="room-image">
+                    </a>
+                    <h2 class="room-title">Suite</h2>
+                    <p class="room-description">Indulge in ultimate luxury in our opulent suites, offering separate living areas, oversized bathtubs, and private terraces with stunning panoramic views.</p>
+                    <ul class="room-amenities">
+                        <li>Free Wifi</li>
+                        <li>Smart TV</li>
+                        <li>Jacuzzi</li>
+                        <li>24/7 Butler Service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="room-card">
+                    <a href="booking1.php">
+                        <img src="500036448.jpg" alt="Penthouse" class="room-image">
+                    </a>
+                    <h2 class="room-title">Penthouse</h2>
+                    <p class="room-description">Elevate your stay with our Penthouse suite, offering unparalleled luxury and sophistication. Enjoy exclusive amenities, stunning views, and personalized service for a truly unforgettable experience.</p>
+                    <ul class="room-amenities">
+                        <li>Free Wifi</li>
+                        <li>Flat-screen TV</li>
+                        <li>En-suite bathroom</li>
+                        <li>24/7 Room Service</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="room-card">
+                    <a href="booking1.php">
+                        <img src="Image.jpg" alt="Villa" class="room-image">
+                    </a>
+                    <h2 class="room-title">Villa</h2>
+                    <p class="room-description">Experience the ultimate in luxury and privacy with our Villa accommodation. Featuring spacious living areas, private pools, and personalized service, our Villas are the perfect retreat for discerning travelers.</p>
+                    <ul class="room-amenities">
+                        <li>Free Wifi</li>
+                        <li>Flat-screen TV</li>
+                        <li>En-suite bathroom</li>
+                        <li>24/7 Room Service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
